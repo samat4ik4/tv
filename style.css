@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1b1b;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #252525;
+}
+
+.header .game-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header button {
+    background-color: #f0b000;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.header .language-selector {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.content {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.content h1 {
+    color: #f0b000;
+    font-size: 2em;
+}
+
+.players {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.player {
+    text-align: center;
+    background-color: #252525;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.player img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.player h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #f0b000;
+}
+
+.information {
+    background-color: #252525;
+    padding: 40px 20px;
+}
+
+.information h2 {
+    text-align: center;
+    color: #f0b000;
+    margin-bottom: 20px;
+}
+
+.info-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-section img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.info-section p {
+    flex: 1;
+    font-size: 1em;
+}
+
+.info-section button {
+    background-color: #f0b000;
+    color: black;
+    border: none;
+    padding: 10px;
+}
